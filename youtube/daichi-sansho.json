@@ -8,7 +8,7 @@
     "youtube": [
         {
             "id": "YWr_0J410i0",
-            "start-end": "start=0m00s&end=0m14s",
+            "startEnd": "start=0m00s&end=0m14s",
             "openMin": 0,
             "openSec": 1,
             "setTimeout": 14000,
@@ -20,7 +20,7 @@
         },
         {
             "id": "HmMoqQAYVy8",
-            "start-end": "start=0m12s&end=0m57s",
+            "startEnd": "start=0m12s&end=0m57s",
             "openMin": 0,
             "openSec": 10,
             "setTimeout": 45000,
@@ -32,7 +32,7 @@
         },
         {
             "id": "ZkbmvDdjIhg",
-            "start-end": "start=0m00s&end=0m06s",
+            "startEnd": "start=0m00s&end=0m06s",
             "openMin": 0,
             "openSec": 12,
             "setTimeout": 6000,
@@ -44,7 +44,7 @@
         },
         {
             "id": "Nc3h1A4QBSM",
-            "start-end": "start=0m10s&end=0m18s",
+            "startEnd": "start=0m10s&end=0m18s",
             "openMin": 0,
             "openSec": 15,
             "setTimeout": 8000,
@@ -56,7 +56,7 @@
         },
         {
             "id": "aRDhTEJvbwg",
-            "start-end": "start=0m00s&end=0m17s",
+            "startEnd": "start=0m00s&end=0m17s",
             "openMin": 0,
             "openSec": 13,
             "setTimeout": 17000,
