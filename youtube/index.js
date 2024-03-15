@@ -8,7 +8,6 @@ async function indexJSON(requestURL) {
     const request = new Request(requestURL);
     const response = await fetch(request);
     const jsonIndex = await response.text();
-
     const index = JSON.parse(jsonIndex);
     playJSON(index);
 }
@@ -45,7 +44,7 @@ function playJSON(obj) {
         for (const content of contentAll) {
             if (minutes == content.openMin && seconds == content.openSec) {
                 let iframe = document.createElement('iframe')
-                iframe.src = `http://www.youtube.com/embed/${content.id}?${content.startEnd}&autoplay=1`;
+                iframe.src = `https://www.youtube.com/embed/${content.id}?${content.startEnd}&autoplay=1`;
                 iframe.style.top = content.top;
                 iframe.style.left = content.left;
                 iframe.style.width = content.width;
@@ -74,6 +73,8 @@ function playJSON(obj) {
             minutes = 0;
             seconds = 0;
             showTime.textContent = '00:00';
+            cover.hidden = false;
+            title.hidden = true;
 
             const allFrame = userList.querySelectorAll("iframe")
             allFrame.forEach((eachFlame) => {
