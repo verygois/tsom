@@ -42,8 +42,8 @@ function playJSON(obj) {
         }
 
         const contentAll = obj.youtube;
+        const main = document.querySelector("main")
         for (const content of contentAll) {
-            const main = document.querySelector("main")
             if (minutes == content.openMin && seconds == content.openSec) {
                 const iframe = document.createElement('iframe')
                 iframe.src = `http://www.youtube.com/embed/${content.id}?${content.startEnd}&autoplay=1`;
