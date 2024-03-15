@@ -80,7 +80,7 @@ h2 button {
 
 nav select,
 main button {
-    color: #fff;
+    color: #000;
     outline: none;
     transition: all 1s;
 }
