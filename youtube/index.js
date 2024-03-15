@@ -51,6 +51,7 @@ function playJSON(obj) {
                 iframe.style.left = content.left;
                 iframe.style.width = content.width;
                 iframe.style.height = content.height;
+                iframe.style.zIndex = content.zIndex;
                 document.querySelector("main").appendChild(iframe)
 
                 window.setTimeout(function () {

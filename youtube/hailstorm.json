@@ -158,7 +158,7 @@
             "setTimeout": 90000,
             "top": "65%",
             "left": "65%",
-            "width": "65vw",
+            "width": "55vw",
             "height": "30vw",
             "zIndex": "4"
         },
@@ -182,7 +182,7 @@
             "setTimeout": 120000,
             "top": "25%",
             "left": "25%",
-            "width": "65vw",
+            "width": "55vw",
             "height": "30vw",
             "zIndex": "3"
         },
@@ -194,8 +194,8 @@
             "setTimeout": 60000,
             "top": "25%",
             "left": "25%",
-            "width": "40vw",
-            "height": "25vw",
+            "width": "35vw",
+            "height": "20vw",
             "zIndex": "4"
         },
         {
@@ -206,8 +206,8 @@
             "setTimeout": 60000,
             "top": "75%",
             "left": "25%",
-            "width": "40vw",
-            "height": "25vw",
+            "width": "35vw",
+            "height": "20vw",
             "zIndex": "4"
         },
         {
@@ -218,8 +218,8 @@
             "setTimeout": 60000,
             "top": "25%",
             "left": "75%",
-            "width": "40vw",
-            "height": "25vw",
+            "width": "35vw",
+            "height": "20vw",
             "zIndex": "4"
         },
         {
@@ -230,8 +230,8 @@
             "setTimeout": 60000,
             "top": "75%",
             "left": "75%",
-            "width": "40vw",
-            "height": "25vw",
+            "width": "35vw",
+            "height": "20vw",
             "zIndex": "4"
         },
         {
@@ -239,7 +239,7 @@
             "startEnd": "start=0m00s&end=0m45s",
             "openMin": 11,
             "openSec": 0,
-            "setTimeout": 60000,
+            "setTimeout": 45000,
             "top": "50%",
             "left": "50%",
             "width": "100%",
