@@ -1,0 +1,82 @@
+{
+    "title": [
+        "<small>【名】《気象》ひょう［あられ］を伴う嵐</small><br>",
+        "Hailstorm Videos"
+    ],
+    "endMin": 5,
+    "endSec": 15,
+    "youtube": [
+        {
+            "id": "tMwXSzV8hlo",
+            "startEnd": "start=0m00s&end=5m00s",
+            "openMin": 0,
+            "openSec": 1,
+            "setTimeout": 300000,
+            "top": "50%",
+            "left": "50%",
+            "width": "100%",
+            "height": "100%",
+            "zIndex": "1"
+        },
+        {
+            "id": "YX3vMmvvWv8",
+            "startEnd": "start=1m10s&end=2m20s",
+            "openMin": 0,
+            "openSec": 30,
+            "setTimeout": 90000,
+            "top": "50%",
+            "left": "50%",
+            "width": "45vw",
+            "height": "27.5vw",
+            "zIndex": "2"
+        },
+        {
+            "id": "O7Fgqj2KqpQ",
+            "startEnd": "start=0m00s&end=1m30s",
+            "openMin": 1,
+            "openSec": 20,
+            "setTimeout": 100000,
+            "top": "50%",
+            "left": "25%",
+            "width": "45vw",
+            "height": "27.5vw",
+            "zIndex": "3"
+        },
+        {
+            "id": "HuLDy_c3HDg",
+            "startEnd": "start=1m00s&end=2m15s",
+            "openMin": 1,
+            "openSec": 20,
+            "setTimeout": 75000,
+            "top": "50%",
+            "left": "75%",
+            "width": "45vw",
+            "height": "27.5vw",
+            "zIndex": "3"
+        },
+        {
+            "id": "4WozM6W3NOg",
+            "startEnd": "start=0m00s&end=1m18s",
+            "openMin": 2,
+            "openSec": 40,
+            "setTimeout": 90000,
+            "top": "50%",
+            "left": "50%",
+            "width": "75vw",
+            "height": "37.5vw",
+            "zIndex": "2"
+        },
+        {
+            "id": "4FRDSJZDZbI",
+            "startEnd": "start=0m20s&end=2m50s",
+            "openMin": 4,
+            "openSec": 0,
+            "setTimeout": 75000,
+            "top": "75%",
+            "left": "75%",
+            "width": "40vw",
+            "height": "25vw",
+            "zIndex": "2"
+        }
+    ]
+}
