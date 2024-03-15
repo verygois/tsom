@@ -40,7 +40,7 @@
             "left": "25%",
             "width": "50vw",
             "height": "30vw",
-            "zIndex": "4"
+            "zIndex": "3"
         },
         {
             "id": "aRDhTEJvbwg",
@@ -52,13 +52,13 @@
             "left": "60%",
             "width": "75vw",
             "height": "45vw",
-            "zIndex": "3"
+            "zIndex": "4"
         },
         {
             "id": "Nc3h1A4QBSM",
             "startEnd": "start=0m10s&end=0m18s",
             "openMin": 0,
-            "openSec": 20,
+            "openSec": 25,
             "setTimeout": 10000,
             "top": "50%",
             "left": "50%",
