@@ -46,11 +46,12 @@ function playJSON(obj) {
             if (minutes == content.openMin && seconds == content.openSec) {
                 const main = document.querySelector("main")
                 const iframe = document.createElement('iframe')
-                iframe.src = `http://www.youtube.com/embed/${content.id}&autoplay=1`;
+                iframe.src = `http://www.youtube.com/embed/${content.id}?${start-end}&autoplay=1`;
                 iframe.style.top = content.top;
                 iframe.style.left = content.left;
                 iframe.style.width = content.width;
                 iframe.style.height = content.height;
+                iframe.style.zIndex = content.zIndex;
                 main.appendChild(iframe)
 
                 window.setTimeout(function () {
