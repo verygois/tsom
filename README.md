@@ -1,2 +1,3 @@
-# tsom
-傑作の協奏曲 The Symphony of Masterpieses
+# The Symphony of Masterpieses
+
+傑作の交響曲
