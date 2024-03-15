@@ -48,8 +48,8 @@
             "openMin": 0,
             "openSec": 15,
             "setTimeout": 20000,
-            "top": "75%",
-            "left": "75%",
+            "top": "60%",
+            "left": "60%",
             "width": "75vw",
             "height": "45vw",
             "zIndex": "3"
