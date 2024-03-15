@@ -3,8 +3,8 @@
         "<small>《気象》ひょう［あられ］を伴う嵐</small><br>",
         "Hailstorm Videos"
     ],
-    "endMin": 8,
-    "endSec": 59,
+    "endMin": 12,
+    "endSec": 30,
     "youtube": [
         {
             "id": "tMwXSzV8hlo",
@@ -137,6 +137,102 @@
             "width": "100%",
             "height": "100%",
             "zIndex": "1"
+        },
+        {
+            "id": "EloV0uIR0n4",
+            "startEnd": "start=0m00s&end=1m03s",
+            "openMin": 8,
+            "openSec": 30,
+            "setTimeout": 65000,
+            "top": "25%",
+            "left": "25%",
+            "width": "37.5vw",
+            "height": "20vw",
+            "zIndex": "5"
+        },
+        {
+            "id": "DuMX9AM9BrE",
+            "startEnd": "start=0m00s&end=1m29s",
+            "openMin": 9,
+            "openSec": 0,
+            "setTimeout": 90000,
+            "top": "65%",
+            "left": "65%",
+            "width": "65vw",
+            "height": "30vw",
+            "zIndex": "4"
+        },
+        {
+            "id": "xatI7-RNwDE",
+            "startEnd": "start=0m00s&end=1m28s",
+            "openMin": 9,
+            "openSec": 15,
+            "setTimeout": 90000,
+            "top": "50%",
+            "left": "50%",
+            "width": "100%",
+            "height": "100%",
+            "zIndex": "1"
+        },
+        {
+            "id": "jIh_YMjYVk",
+            "startEnd": "start=0m00s&end=2m00s",
+            "openMin": 9,
+            "openSec": 30,
+            "setTimeout": 120000,
+            "top": "25%",
+            "left": "25%",
+            "width": "65vw",
+            "height": "30vw",
+            "zIndex": "3"
+        },
+        {
+            "id": "mQix_BqLgic",
+            "startEnd": "start=0m00s&end=0m57s",
+            "openMin": 11,
+            "openSec": 30,
+            "setTimeout": 60000,
+            "top": "25%",
+            "left": "25%",
+            "width": "40vw",
+            "height": "25vw",
+            "zIndex": "4"
+        },
+        {
+            "id": "HMvIpzEwDYM",
+            "startEnd": "start=0m00s&end=0m53s",
+            "openMin": 11,
+            "openSec": 30,
+            "setTimeout": 60000,
+            "top": "75%",
+            "left": "25%",
+            "width": "40vw",
+            "height": "25vw",
+            "zIndex": "4"
+        },
+        {
+            "id": "6tfaIQwuoKc",
+            "startEnd": "start=0m00s&end=0m52s",
+            "openMin": 11,
+            "openSec": 30,
+            "setTimeout": 60000,
+            "top": "25%",
+            "left": "75%",
+            "width": "40vw",
+            "height": "25vw",
+            "zIndex": "4"
+        },
+        {
+            "id": "fyd2jSs5eAM",
+            "startEnd": "start=0m00s&end=0m57s",
+            "openMin": 11,
+            "openSec": 30,
+            "setTimeout": 60000,
+            "top": "75%",
+            "left": "75%",
+            "width": "40vw",
+            "height": "25vw",
+            "zIndex": "4"
         }
     ]
 }
