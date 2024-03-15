@@ -73,7 +73,7 @@ h1 {
 }
 
 h1:hover,
-h1:hover button
+h1:hover button,
 nav select:hover,
 h2 button:hover {
     cursor: pointer;
