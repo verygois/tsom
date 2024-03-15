@@ -41,17 +41,18 @@ function playJSON(obj) {
             title.hidden = true;
         }
 
+        const main = document.querySelector("main")
         const contentAll = obj.youtube;
         for (const content of contentAll) {
             if (minutes == content.openMin && seconds == content.openSec) {
-                let iframe = document.createElement('iframe')
+                const iframe = document.createElement('iframe')
                 iframe.src = `http://www.youtube.com/embed/${content.id}?${content.startEnd}&autoplay=1`;
                 iframe.style.top = content.top;
                 iframe.style.left = content.left;
                 iframe.style.width = content.width;
                 iframe.style.height = content.height;
                 iframe.style.zIndex = content.zIndex;
-                document.querySelector("main").appendChild(iframe)
+                main.appendChild(iframe)
 
                 window.setTimeout(function () {
                     iframe.remove()
@@ -76,7 +77,7 @@ function playJSON(obj) {
             seconds = 0;
             showTime.textContent = '00:00';
 
-            const allFrame = document.querySelectorAll("iframe")
+            const allFrame = userList.querySelectorAll("iframe")
             allFrame.forEach((eachFlame) => {
                 eachFlame.remove()
             })

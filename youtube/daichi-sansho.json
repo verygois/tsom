@@ -3,8 +3,8 @@
         "大地讃頌<br>",
         "Praise for the Earth"
     ],
-    "endMin": 1,
-    "endSec": 1,
+    "endMin": 0,
+    "endSec": 20,
     "youtube": [
         {
             "id": "YWr_0J410i0",
@@ -14,9 +14,9 @@
             "setTimeout": 14000,
             "top": "50%",
             "left": "50%",
-            "width": "50vw",
-            "height": "30vw",
-            "zIndex": "10"
+            "width": "55vw",
+            "height": "32.5vw",
+            "zIndex": "1"
         }
     ]
 }
