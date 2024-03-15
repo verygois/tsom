@@ -3,20 +3,68 @@
         "大地讃頌<br>",
         "Praise for the Earth"
     ],
-    "endMin": 0,
-    "endSec": 20,
+    "endMin": 1,
+    "endSec": 11,
     "youtube": [
         {
-            "id": "YWr_0J410i0",
-            "startEnd": "start=0m00s&end=0m14s",
+            "id": "HmMoqQAYVy8",
+            "startEnd": "start=0m00s&end=056s",
             "openMin": 0,
             "openSec": 1,
-            "setTimeout": 14000,
+            "setTimeout": 56000,
             "top": "50%",
             "left": "50%",
             "width": "100%",
             "height": "100%",
             "zIndex": "1"
+        },
+        {
+            "id": "YWr_0J410i0",
+            "startEnd": "start=0m00s&end=0m14s",
+            "openMin": 0,
+            "openSec": 10,
+            "setTimeout": 14000,
+            "top": "50%",
+            "left": "50%",
+            "width": "50vw",
+            "height": "30vw",
+            "zIndex": "2"
+        },
+        {
+            "id": "ZkbmvDdjIhg",
+            "startEnd": "start=0m00s&end=0m05s",
+            "openMin": 0,
+            "openSec": 15,
+            "setTimeout": 5000,
+            "top": "25%",
+            "left": "25%",
+            "width": "50vw",
+            "height": "30vw",
+            "zIndex": "5"
+        },
+        {
+            "id": "aRDhTEJvbwg",
+            "startEnd": "start=0m00s&end=0m18s",
+            "openMin": 0,
+            "openSec": 15,
+            "setTimeout": 18000,
+            "top": "75%",
+            "left": "75%",
+            "width": "75vw",
+            "height": "45vw",
+            "zIndex": "3"
+        },
+        {
+            "id": "Nc3h1A4QBSM",
+            "startEnd": "start=0m10s&end=0m18s",
+            "openMin": 0,
+            "openSec": 20,
+            "setTimeout": 8000,
+            "top": "25%",
+            "left": "25%",
+            "width": "50vw",
+            "height": "30vw",
+            "zIndex": "4"
         }
     ]
 }
