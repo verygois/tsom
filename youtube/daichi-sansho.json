@@ -23,31 +23,31 @@
             "startEnd": "start=0m00s&end=0m14s",
             "openMin": 0,
             "openSec": 10,
-            "setTimeout": 15000,
+            "setTimeout": 20000,
             "top": "50%",
             "left": "50%",
             "width": "50vw",
             "height": "30vw",
-            "zIndex": "2"
+            "zIndex": "5"
         },
         {
             "id": "ZkbmvDdjIhg",
             "startEnd": "start=0m00s&end=0m05s",
             "openMin": 0,
             "openSec": 15,
-            "setTimeout": 7500,
+            "setTimeout": 10000,
             "top": "25%",
             "left": "25%",
             "width": "50vw",
             "height": "30vw",
-            "zIndex": "5"
+            "zIndex": "4"
         },
         {
             "id": "aRDhTEJvbwg",
             "startEnd": "start=0m00s&end=0m18s",
             "openMin": 0,
             "openSec": 15,
-            "setTimeout": 20000,
+            "setTimeout": 25000,
             "top": "60%",
             "left": "60%",
             "width": "75vw",
@@ -60,11 +60,11 @@
             "openMin": 0,
             "openSec": 20,
             "setTimeout": 10000,
-            "top": "25%",
-            "left": "25%",
+            "top": "50%",
+            "left": "50%",
             "width": "50vw",
             "height": "30vw",
-            "zIndex": "4"
+            "zIndex": "5"
         }
     ]
 }
