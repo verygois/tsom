@@ -7,8 +7,7 @@
     "endSec": 20,
     "youtube": [
         {
-            "id": "YWr_0J410i0",
-            "startEnd": "start=0m00s&end=0m14s",
+            "id": "YWr_0J410i0?start=0m00s&end=0m14s",
             "openMin": 0,
             "openSec": 1,
             "setTimeout": 14000,
