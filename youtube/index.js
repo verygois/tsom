@@ -38,6 +38,8 @@ function playJSON(obj) {
             seconds = 0;
             cover.hidden = false;
             title.hidden = true;
+
+            showTime.textContent = ('00' + obj.endMin).slice(-2) + ':' + ('00' + obj.endSec).slice(-2);
         }
 
         const contentAll = obj.youtube;
@@ -72,9 +74,10 @@ function playJSON(obj) {
             clearInterval(interval)
             minutes = 0;
             seconds = 0;
-            showTime.textContent = '00:00';
             cover.hidden = false;
             title.hidden = true;
+
+            showTime.textContent = ('00' + obj.endMin).slice(-2) + ':' + ('00' + obj.endSec).slice(-2);
 
             const allFrame = userList.querySelectorAll("iframe")
             allFrame.forEach((eachFlame) => {
