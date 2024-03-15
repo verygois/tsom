@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-[hidden],
-main iframe {
+[hidden] {
     pointer-events: none;
     user-select: none;
 }
