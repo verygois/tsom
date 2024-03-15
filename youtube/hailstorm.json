@@ -3,8 +3,8 @@
         "<small>《気象》ひょう［あられ］を伴う嵐</small><br>",
         "Hailstorm Videos"
     ],
-    "endMin": 12,
-    "endSec": 30,
+    "endMin": 13,
+    "endSec": 45,
     "youtube": [
         {
             "id": "tMwXSzV8hlo",
@@ -233,6 +233,30 @@
             "width": "40vw",
             "height": "25vw",
             "zIndex": "4"
+        },
+        {
+            "id": "5SjTaXZjYiY",
+            "startEnd": "start=0m00s&end=0m45s",
+            "openMin": 12,
+            "openSec": 0,
+            "setTimeout": 60000,
+            "top": "50%",
+            "left": "50%",
+            "width": "100%",
+            "height": "100%",
+            "zIndex": "1"
+        },
+        {
+            "id": "5SjTaXZjYiY",
+            "startEnd": "start=0m00s&end=0m45s",
+            "openMin": 12,
+            "openSec": 0,
+            "setTimeout": 60000,
+            "top": "50%",
+            "left": "50%",
+            "width": "100%",
+            "height": "100%",
+            "zIndex": "1"
         }
     ]
 }
