@@ -3,8 +3,8 @@
         "<small>《気象》ひょう［あられ］を伴う嵐</small><br>",
         "Hailstorm Videos"
     ],
-    "endMin": 6,
-    "endSec": 45,
+    "endMin": 8,
+    "endSec": 59,
     "youtube": [
         {
             "id": "tMwXSzV8hlo",
@@ -26,8 +26,8 @@
             "setTimeout": 90000,
             "top": "50%",
             "left": "50%",
-            "width": "45vw",
-            "height": "27.5vw",
+            "width": "55vw",
+            "height": "32.5vw",
             "zIndex": "2"
         },
         {
@@ -39,7 +39,7 @@
             "top": "50%",
             "left": "25%",
             "width": "45vw",
-            "height": "27.5vw",
+            "height": "25vw",
             "zIndex": "3"
         },
         {
@@ -51,7 +51,7 @@
             "top": "50%",
             "left": "75%",
             "width": "45vw",
-            "height": "27.5vw",
+            "height": "25vw",
             "zIndex": "3"
         },
         {
@@ -62,7 +62,7 @@
             "setTimeout": 90000,
             "top": "50%",
             "left": "50%",
-            "width": "75vw",
+            "width": "70vw",
             "height": "37.5vw",
             "zIndex": "2"
         },
@@ -71,18 +71,18 @@
             "startEnd": "start=0m20s&end=2m50s",
             "openMin": 4,
             "openSec": 0,
-            "setTimeout": 75000,
+            "setTimeout": 150000,
             "top": "75%",
             "left": "75%",
-            "width": "40vw",
-            "height": "25vw",
+            "width": "37.5vw",
+            "height": "20vw",
             "zIndex": "3"
         },
         {
             "id": "L1O2HPQZQMI",
             "startEnd": "start=0m00s&end=0m32s",
-            "openMin": 5,
-            "openSec": 0,
+            "openMin": 6,
+            "openSec": 30,
             "setTimeout": 45000,
             "top": "25%",
             "left": "25%",
@@ -93,8 +93,8 @@
         {
             "id": "ABlrCHM9IhU",
             "startEnd": "start=0m00s&end=0m36s",
-            "openMin": 5,
-            "openSec": 0,
+            "openMin": 6,
+            "openSec": 30,
             "setTimeout": 45000,
             "top": "75%",
             "left": "25%",
@@ -105,8 +105,8 @@
         {
             "id": "7BiaURobQqk",
             "startEnd": "start=0m00s&end=0m35s",
-            "openMin": 5,
-            "openSec": 0,
+            "openMin": 6,
+            "openSec": 30,
             "setTimeout": 45000,
             "top": "25%",
             "left": "75%",
@@ -117,8 +117,8 @@
         {
             "id": "tBqdRh-Q6Ms",
             "startEnd": "start=0m00s&end=0m38s",
-            "openMin": 5,
-            "openSec": 0,
+            "openMin": 6,
+            "openSec": 30,
             "setTimeout": 45000,
             "top": "75%",
             "left": "75%",
@@ -129,7 +129,7 @@
         {
             "id": "LvjrYz79SNQ",
             "startEnd": "start=0m00s&end=1m49s",
-            "openMin": 5,
+            "openMin": 7,
             "openSec": 30,
             "setTimeout": 120000,
             "top": "50%",
