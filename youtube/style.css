@@ -72,9 +72,10 @@ h1 {
     vertical-align: bottom;
 }
 
-h1,
-nav select,
-h2 button {
+h1:hover,
+h1:hover button
+nav select:hover,
+h2 button:hover {
     cursor: pointer;
 }
 

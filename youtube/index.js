@@ -17,6 +17,7 @@ function playJSON(obj) {
     const h1B = document.querySelector('h1 strong')
     const h1I = document.querySelector('h1 i')
     const title = document.querySelector('#title')
+    const by = document.querySelector('#by')
     const startButton = document.querySelector('h1')
     const showTime = document.querySelector('#title button')
 
@@ -24,6 +25,7 @@ function playJSON(obj) {
         h1B.innerHTML = obj.title[0];
         h1I.innerHTML = obj.title[1];
     }
+    by.innerHTML = obj.by;
 
     showTime.textContent = ('00' + obj.endMin).slice(-2) + ':' + ('00' + obj.endSec).slice(-2);
 
@@ -38,8 +40,11 @@ function playJSON(obj) {
             seconds = 0;
             cover.hidden = false;
             title.hidden = true;
-
             showTime.textContent = ('00' + obj.endMin).slice(-2) + ':' + ('00' + obj.endSec).slice(-2);
+            const allFrame = document.querySelectorAll("iframe")
+            allFrame.forEach((eachFlame) => {
+                eachFlame.remove()
+            })
         }
 
         const contentAll = obj.youtube;
@@ -80,7 +85,7 @@ function playJSON(obj) {
 
             showTime.textContent = ('00' + obj.endMin).slice(-2) + ':' + ('00' + obj.endSec).slice(-2);
 
-            const allFrame = userList.querySelectorAll("iframe")
+            const allFrame = document.querySelectorAll("iframe")
             allFrame.forEach((eachFlame) => {
                 eachFlame.remove()
             })
