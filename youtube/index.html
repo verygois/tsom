@@ -25,7 +25,34 @@
 
     <script src="index.js"></script>
     <script>
-        indexJSON('hailstorm.json')
+        // ?name=名前
+        const urlParam = location.search.substring(1)
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+            const json = paramArr.name + '.json'
+            indexJSON(json)
+        } else {
+            indexJSON('hailstorm.json')
+        }
+
+        function valueChange(e) {
+            // イベントが発生した時の処理
+            e.preventDefault();
+            let url = this.value;
+            location.assign(`?name=${url}`)
+        }
+
+        document.addEventListener("DOMContentLoaded", (event) => {
+            let selectAll = document.querySelectorAll('select')
+            selectAll.forEach((select) => {
+                select.addEventListener('change', valueChange)
+            }, false)
+        })
     </script>
 
     <!--Icons-->
@@ -44,6 +71,8 @@
         <nav id="cover">
             <select name="" id="">
                 <option disabled selected>傑作の交響曲</option>
+                <option value="daichi-sansho">大地讃頌</option>
+                <option value="hailstorm">Hailstorm Videos</option>
             </select>
             <h1>
                 <strong>The Symphony of</strong>
@@ -51,12 +80,13 @@
                 <button type="button">YouTube</button>
             </h1>
         </nav>
+    </main>
+    <article>
         <h2 id="title" hidden>
             <small>Selected by <b id="by">Your Name</b></small>
             <button type="button">00:00</button>
         </h2>
-    </main>
-    <article>aaa</article>
+    </article>
 </body>
 
 </html>

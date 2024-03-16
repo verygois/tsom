@@ -4,10 +4,14 @@
         "Hailstorm Videos"
     ],
     "by": "SK.Ⅱ",
+    "cover": "cover/hailstorm.png",
     "endMin": 11,
     "endSec": 45,
+    "id": "CLPZnkqyfNs",
+    "playlist": "PLOn3MRWNosXN6Lxkxb5BtR6xpQFbJkLxU",
     "youtube": [
         {
+            "title": "Daichi Sansho by geuphonium",
             "id": "tMwXSzV8hlo",
             "startEnd": "start=0m00s&end=5m00s",
             "openMin": 0,
@@ -20,6 +24,7 @@
             "zIndex": "1"
         },
         {
+            "title": "Daichi Sansho by geuphonium",
             "id": "YX3vMmvvWv8",
             "startEnd": "start=1m10s&end=2m20s",
             "openMin": 0,
